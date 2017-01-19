@@ -86,7 +86,7 @@
         <!-- Function Names -->
         <dict>
             <key>name</key> <string>TBD</string>
-            <key>scope</key><string>entity.name, variable.function, variable.function.member, meta.function-call.method</string>
+            <key>scope</key><string>entity.name, variable.function, variable.function.member, meta.function-call.method, punctuation.accessor</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key><string>#77dd77</string> <!-- Green -->
@@ -149,7 +149,7 @@
         <!-- Standard variable name -->
         <dict>
             <key>name</key> <string>TBD</string>
-            <key>scope</key><string>variable.language, variable.other</string>
+            <key>scope</key><string>variable.language, variable.other, meta.property.object</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key><string>#ff6961</string> <!-- Red -->
