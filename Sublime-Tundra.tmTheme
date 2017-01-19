@@ -1,0 +1,270 @@
+<!--
+    Red         | ff6961
+    Orange      | ffb347
+    Yellow      | E6DC64
+    Green       | 77dd77
+    Blue        | 87ceeb
+    Purple      | AE81FF
+    Gray        | cfcfc4
+    Brown       | 836953
+    Pink        | f49ac2
+    Dark Red    | c23b22
+    Dark Blue   | 779ecb
+    Dark Purple | 966fd6
+    Dark Green  | 03C03C
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+<dict>
+    <key>name</key>          <string>Yolo Swag</string>
+    <key>author</key>        <string>Tundra Fizz</string>
+    <key>uuid</key>          <string>D8D5E82E-3D5B-46B5-B38E-8C841C21347D</string>
+    <key>colorSpaceName</key><string>sRGB</string>
+    <key>semanticClass</key> <string>theme.dark.yolo_swag</string>
+    <key>comment</key>       <string></string>
+    <key>settings</key>
+    <array>
+        <dict>
+            <key>settings</key>
+            <dict>
+                <key>background</key>               <string>#272822</string>
+                <key>caret</key>                    <string>#F8F8F0</string>
+                <key>foreground</key>               <string>#F8F8F2</string>
+                <key>invisibles</key>               <string>#3B3A32</string>
+                <key>lineHighlight</key>            <string>#3E3D32</string>
+                <key>selection</key>                <string>#49483E</string>
+                <key>findHighlight</key>            <string>#FFE792</string>
+                <key>findHighlightForeground</key>  <string>#000000</string>
+                <key>selectionBorder</key>          <string>#222218</string>
+                <key>activeGuide</key>              <string>#9D550FB0</string>
+                <key>bracketsForeground</key>       <string>#F8F8F2A5</string>
+                <key>bracketsOptions</key>          <string>underline</string>
+                <key>bracketContentsForeground</key><string>#F8F8F2A5</string>
+                <key>bracketContentsOptions</key>   <string>underline</string>
+                <key>tagsOptions</key>              <string>stippled_underline</string>
+            </dict>
+        </dict>
+
+        <!--------------------- General ---------------------->
+        <!-- Comments -->
+        <dict>
+            <key>name</key> <string>Comment</string>
+            <key>scope</key><string>comment</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key><string>#03C03C</string> <!-- Dark Green -->
+            </dict>
+        </dict>
+        <!-- Keywords: #include, import, from -->
+        <dict>
+            <key>name</key> <string>TBD</string>
+            <key>scope</key><string>keyword.control.import</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key><string>#c23b22</string> <!-- Dark Red -->
+            </dict>
+        </dict>
+        <!-- The library that you're including; example: <iostream> -->
+        <dict>
+            <key>name</key> <string>TBD</string>
+            <key>scope</key><string>string.quoted.other.lt-gt.include, meta.statement.import</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key><string>#779ecb</string> <!-- Dark Blue -->
+            </dict>
+        </dict>
+        <!-- Typenames (int, char, class, struct) and Keywords (if, for, while, bool) -->
+        <dict>
+            <key>name</key> <string>TBD</string>
+            <key>scope</key><string>storage.type, support.type.sys-types, keyword.control</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key><string>#7ec0ee</string> <!-- Blue -->
+            </dict>
+        </dict>
+        <!-- Function Names -->
+        <dict>
+            <key>name</key> <string>TBD</string>
+            <key>scope</key><string>entity.name, variable.function, variable.function.member, meta.function-call.method</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key><string>#77dd77</string> <!-- Green -->
+            </dict>
+        </dict>
+        <!-- Parenthesis and Square/Curly Brackets () [] {} -->
+        <dict>
+            <key>name</key> <string>TBD</string>
+            <key>scope</key><string>punctuation.section, punctuation.definition.group, punctuation.definition.template-expression, punctuation.definition.parameters, punctuation.definition.block</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key><string>#ffb347</string> <!-- Orange -->
+            </dict>
+        </dict>
+        <!-- Function Parameters -->
+        <dict>
+            <key>name</key> <string>TBD</string>
+            <key>scope</key><string>variable.parameter</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key><string>#ff6961</string> <!-- Red -->
+            </dict>
+        </dict>
+        <!-- Constant numbers -->
+        <dict>
+            <key>name</key> <string>TBD</string>
+            <key>scope</key><string>constant.numeric, constant.other.placeholder</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key><string>#AE81FF</string> <!-- Purple -->
+            </dict>
+        </dict>
+        <!-- operators (++, +=, <<) -->
+        <dict>
+            <key>name</key> <string>TBD</string>
+            <key>scope</key><string>keyword.operator</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key><string>#f49ac2</string> <!-- Pink -->
+            </dict>
+        </dict>
+        <!-- String -->
+        <dict>
+            <key>name</key> <string>TBD</string>
+            <key>scope</key><string>string.quoted, string.template</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key><string>#E6DC64</string> <!-- Yellow -->
+            </dict>
+        </dict>
+        <!-- True/False -->
+        <dict>
+            <key>name</key> <string>TBD</string>
+            <key>scope</key><string>constant.language</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key><string>#c23b22</string> <!-- Dark Red -->
+            </dict>
+        </dict>
+        <!-- Standard variable name -->
+        <dict>
+            <key>name</key> <string>TBD</string>
+            <key>scope</key><string>variable.language, variable.other</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key><string>#ff6961</string> <!-- Red -->
+            </dict>
+        </dict>
+        <!-- Semicolon/Line terminators -->
+        <dict>
+            <key>name</key> <string>TBD</string>
+            <key>scope</key><string>punctuation.terminator.statement</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key><string>#cfcfc4</string> <!-- Gray -->
+            </dict>
+        </dict>
+        <!-- Any code that doesn't match any other rules -->
+        <dict>
+            <key>name</key> <string>TBD</string>
+            <key>scope</key><string>source, text</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key><string>#cfcfc4</string> <!-- Gray -->
+            </dict>
+        </dict>
+        <!-- Placeholder -->
+        <dict>
+            <key>name</key> <string>TBD</string>
+            <key>scope</key><string></string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key><string>#</string>
+            </dict>
+        </dict>
+
+        <!----------------------- HTML ----------------------->
+        <!-- Tag -->
+        <dict>
+            <key>name</key> <string>HTML Tag</string>
+            <key>scope</key><string>entity.name.tag</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key><string>#F92672</string>
+            </dict>
+        </dict>
+        <!-- Tag Attribute -->
+        <dict>
+            <key>name</key> <string>HTML Attribute</string>
+            <key>scope</key><string>meta.attribute-with-value</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key><string>#49E012</string>
+            </dict>
+        </dict>
+        <!-- Tag Attribute Value: JavaScript -->
+        <dict>
+            <key>name</key> <string>HTML Attribute Value</string>
+            <key>scope</key><string>meta.attribute-with-value.event.html source.js</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key><string>#7f8eff</string>
+            </dict>
+        </dict>
+        <!-- Tag Attribute Value: CSS -->
+        <dict>
+            <key>name</key> <string>HTML Attribute Value</string>
+            <key>scope</key><string>meta.attribute-with-value.style.html source.css</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key><string>#57edea</string>
+            </dict>
+        </dict>
+
+        <!----------------------- CSS ------------------------>
+        <!-- ToDo -->
+
+        <!----------------------- SQL ------------------------>
+        <!-- Source -->
+        <dict>
+            <key>name</key> <string>SQL Source</string>
+            <key>scope</key><string>source.sql</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key><string>#FF9F30</string>
+            </dict>
+        </dict>
+
+        <!-- Keywords -->
+        <dict>
+            <key>name</key> <string>SQL Keywords</string>
+            <key>scope</key><string>keyword.other.DML.sql, keyword.other.alias.sql, keyword.other.DDL.create.II.sql</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key><string>#F92672</string>
+                <key>fontStyle</key> <string>bold</string>
+            </dict>
+        </dict>
+
+        <!-- Database Name -->
+        <dict>
+            <key>name</key> <string>SQL Keywords</string>
+            <key>scope</key><string>constant.other.database-name.sql</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key><string>#836953</string>
+            </dict>
+        </dict>
+
+        <!-- Table Name -->
+        <dict>
+            <key>name</key> <string>SQL Keywords</string>
+            <key>scope</key><string>constant.other.table-name.sql</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key><string>#aaaaaa</string>
+            </dict>
+        </dict>
+    </array>
+</dict>
+</plist>
