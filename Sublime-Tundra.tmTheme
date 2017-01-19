@@ -95,7 +95,7 @@
         <!-- Parenthesis and Square/Curly Brackets () [] {} -->
         <dict>
             <key>name</key> <string>TBD</string>
-            <key>scope</key><string>punctuation.section, punctuation.definition.group, punctuation.definition.template-expression, punctuation.definition.parameters, punctuation.definition.block</string>
+            <key>scope</key><string>punctuation.section, punctuation.definition.group, punctuation.definition.template-expression, punctuation.definition.parameters, punctuation.definition.block, punctuation.definition.brackets</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key><string>#ffb347</string> <!-- Orange -->
@@ -167,7 +167,7 @@
         <!-- Any code that doesn't match any other rules -->
         <dict>
             <key>name</key> <string>TBD</string>
-            <key>scope</key><string>source, text</string>
+            <key>scope</key><string>source, text, punctuation.separator.comma, punctuation.separator.parameter</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key><string>#cfcfc4</string> <!-- Gray -->
