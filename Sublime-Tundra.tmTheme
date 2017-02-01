@@ -211,18 +211,53 @@
                 <key>foreground</key><string>#7f8eff</string>
             </dict>
         </dict>
+
+        <!----------------------- CSS ------------------------>
+        <!-- Property Name: CSS -->
+        <dict>
+            <key>name</key> <string>HTML Attribute Value</string>
+            <key>scope</key><string>meta.property-name.css</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key><string>#ff6961</string>
+            </dict>
+        </dict>
         <!-- Tag Attribute Value: CSS -->
         <dict>
             <key>name</key> <string>HTML Attribute Value</string>
-            <key>scope</key><string>meta.attribute-with-value.style.html source.css</string>
+            <key>scope</key><string>meta.property-value.css</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key><string>#57edea</string>
             </dict>
         </dict>
-
-        <!----------------------- CSS ------------------------>
-        <!-- ToDo -->
+        <!-- ID: CSS -->
+        <dict>
+            <key>name</key> <string>HTML Attribute Value</string>
+            <key>scope</key><string>entity.other.attribute-name.id.css</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key><string>#87ceeb</string>
+            </dict>
+        </dict>
+        <!-- Class: CSS -->
+        <dict>
+            <key>name</key> <string>HTML Attribute Value</string>
+            <key>scope</key><string>entity.other.attribute-name.class.css</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key><string>#77dd77</string>
+            </dict>
+        </dict>
+        <!-- Punctuation: CSS -->
+        <dict>
+            <key>name</key> <string>HTML Attribute Value</string>
+            <key>scope</key><string>punctuation.separator.key-value.css, punctuation.terminator.rule.css</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key><string>#cfcfc4</string>
+            </dict>
+        </dict>
 
         <!----------------------- SQL ------------------------>
         <!-- Source -->
