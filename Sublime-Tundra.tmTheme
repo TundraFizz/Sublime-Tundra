@@ -300,6 +300,37 @@
                 <key>foreground</key><string>#aaaaaa</string>
             </dict>
         </dict>
+
+        <!----------------------- XML ------------------------>
+        <!-- XML: Tag Punctuation -->
+        <dict>
+            <key>name</key> <string>XML: Tag Punctuation</string>
+            <key>scope</key><string>punctuation.definition.tag.begin.xml, punctuation.definition.tag.end.xml</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key><string>#87ceeb</string>
+            </dict>
+        </dict>
+
+        <!-- XML: Tag Name -->
+        <dict>
+            <key>name</key> <string>XML: Tag Name</string>
+            <key>scope</key><string>entity.name.tag.localname.xml</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key><string>#ff6961</string>
+            </dict>
+        </dict>
+
+        <!-- XML: Text -->
+        <dict>
+            <key>name</key> <string>XML: Text</string>
+            <key>scope</key><string>text.xml</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key><string>#e6dc64</string>
+            </dict>
+        </dict>
     </array>
 </dict>
 </plist>
