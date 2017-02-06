@@ -173,6 +173,24 @@
                 <key>foreground</key><string>#cfcfc4</string> <!-- Gray -->
             </dict>
         </dict>
+        <!-- JS: Class Name -->
+        <dict>
+            <key>name</key> <string>TBD</string>
+            <key>scope</key><string>support.class.js</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key><string>#77dd77</string>
+            </dict>
+        </dict>
+        <!-- JS: Prototype -->
+        <dict>
+            <key>name</key> <string>TBD</string>
+            <key>scope</key><string>support.constant.prototype.js</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key><string>#f49ac2</string>
+            </dict>
+        </dict>
         <!-- Placeholder -->
         <dict>
             <key>name</key> <string>TBD</string>
