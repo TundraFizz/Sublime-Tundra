@@ -164,6 +164,15 @@
                 <key>foreground</key><string>#cfcfc4</string> <!-- Gray -->
             </dict>
         </dict>
+        <!-- This is so that the "url" variable will remain the same color as other variables -->
+        <dict>
+            <key>name</key> <string>TBD</string>
+            <key>scope</key><string>meta.binding.name.js</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key><string>#ff6961</string> <!-- Red -->
+            </dict>
+        </dict>
         <!-- Any code that doesn't match any other rules -->
         <dict>
             <key>name</key> <string>TBD</string>
