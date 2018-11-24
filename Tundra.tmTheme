@@ -200,6 +200,15 @@
                 <key>foreground</key><string>#f49ac2</string>
             </dict>
         </dict>
+        <!-- JS: Dom -->
+        <dict>
+            <key>name</key> <string>TBD</string>
+            <key>scope</key><string>support.constant.dom.js</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key><string>#ff6961</string>
+            </dict>
+        </dict>
         <!-- Placeholder -->
         <dict>
             <key>name</key> <string>TBD</string>
