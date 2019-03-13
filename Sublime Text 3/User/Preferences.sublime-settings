@@ -1,0 +1,19 @@
+{
+	"color_scheme": "Packages/Tundra/Tundra.tmTheme",
+	"copy_with_empty_selection": false,
+	"enable_hexadecimal_encoding": false,
+	"ensure_newline_at_eof_on_save": true,
+	"fade_fold_buttons": false,
+	"font_size": 10,
+	"hot_exit": false,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"show_encoding": true,
+	"tab_size": 2,
+	"theme": "Default.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"word_wrap": false
+}
